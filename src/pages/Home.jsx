@@ -131,11 +131,12 @@ function Home() {
                 </div>
             </section>
             <section className="feature-section">
-                <div className="line">
-                    <img src={Line} alt="line" />
-                </div>
+
                 <div>
-                    <div className="container">
+                    <div className="container position-relative">
+                        <div className="line">
+                            <img src={Line} alt="line" />
+                        </div>
                         <div className="row align-items-center">
                             {/* Left Feature */}
                             <div className="col-lg-5 mb-4 mb-lg-0">
@@ -165,11 +166,7 @@ function Home() {
                             {/* Phone Mockup */}
                             <div className="col-lg-7 position-relative">
                                 <div className="phone-mockup ">
-                                    <img
-                                        src={Phone}
-                                        alt="Phone Mockup"
-                                    />
-
+                                    <img src={Phone} alt="Phone Mockup" />
                                 </div>
 
                             </div>

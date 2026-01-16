@@ -198,6 +198,16 @@ section.hero-section p {
   color: #fff;
   border-radius: 6px;
   font-size: 16px;
+  transition: .5s ease-out;
+}
+
+.hero-button a:first-child:hover {
+  background-color: #000;
+}
+
+.hero-button a:hover {
+  background-color: var(--primary-color);
+  color: #fff;
 }
 
 .hero-button a {
@@ -208,6 +218,7 @@ section.hero-section p {
   border-radius: 6px;
   border: 1px solid var(--primary-color);
   font-size: 16px;
+  transition: .5s ease-out;
 }
 
 .hero-button {
@@ -336,8 +347,8 @@ p.feature-text {
 
 .line {
   position: absolute;
-  top: 152px;
-  left: 13px;
+  top: 135px;
+  left: -57px;
 }
 
 section.feature-section {
