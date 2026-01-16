@@ -344,6 +344,12 @@ section.feature-section {
   position: relative;
 }
 
+.right-bg {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
 /**********feature**********/
 section.head-section {
   padding: 97px 0;

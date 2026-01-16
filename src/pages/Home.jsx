@@ -11,7 +11,7 @@ import Circleright from '../assets/right-circle.png'
 import Phone from '../assets/phone.png'
 import Happy from '../assets/Happy.png'
 import Line from '../assets/line.png'
-
+import Eclipse from '../assets/ecl-right.png'
 
 import { Link } from 'react-router-dom';
 
@@ -134,70 +134,52 @@ function Home() {
                 <div className="line">
                     <img src={Line} alt="line" />
                 </div>
-                <div className="container">
-                    <div className="row align-items-center">
-                        {/* Left Feature */}
-                        <div className="col-lg-5 mb-4 mb-lg-0">
-                            <div className="feature-card">
-                                <div className="icon-cont">
-                                    <div className="icon-box">
-                                        <img src={Happy} alt="Phone" />
+                <div>
+                    <div className="container">
+                        <div className="row align-items-center">
+                            {/* Left Feature */}
+                            <div className="col-lg-5 mb-4 mb-lg-0">
+                                <div className="feature-card">
+                                    <div className="icon-cont">
+                                        <div className="icon-box">
+                                            <img src={Happy} alt="Phone" />
+                                        </div>
+                                        <div className="feat-cont">
+                                            <p className="feature-title-one">Lorem Ipsum is simply dummy text</p>
+                                            <p className="feature-subtitle">Lorem Ipsum is simply dummy text</p>
+                                        </div>
                                     </div>
-                                    <div className="feat-cont">
-                                        <p className="feature-title-one">Lorem Ipsum is simply dummy text</p>
-                                        <p className="feature-subtitle">Lorem Ipsum is simply dummy text</p>
-                                    </div>
+
+                                    <h2 className="feature-title">
+                                        Lorem Ipsum is simply dummy text of the printing.
+                                    </h2>
+                                    <p className="feature-text">
+                                        KODEX TECHNOLOGY (PVT) LTD is a team of experienced mobile and web
+                                        applications and website builders measuring dozens of completed projects.
+                                        We build and develop mobile applications for several top platforms,
+                                        including Android & IOS.
+                                    </p>
+                                </div>
+                            </div>
+
+                            {/* Phone Mockup */}
+                            <div className="col-lg-7 position-relative">
+                                <div className="phone-mockup ">
+                                    <img
+                                        src={Phone}
+                                        alt="Phone Mockup"
+                                    />
+
                                 </div>
 
-                                <h2 className="feature-title">
-                                    Lorem Ipsum is simply dummy text of the printing.
-                                </h2>
-                                <p className="feature-text">
-                                    KODEX TECHNOLOGY (PVT) LTD is a team of experienced mobile and web
-                                    applications and website builders measuring dozens of completed projects.
-                                    We build and develop mobile applications for several top platforms,
-                                    including Android & IOS.
-                                </p>
-                            </div>
-                        </div>
-
-                        {/* Phone Mockup */}
-                        <div className="col-lg-7">
-                            <div className="phone-mockup">
-                                <img
-                                    src={Phone}
-                                    alt="Phone Mockup"
-                                />
                             </div>
                         </div>
                     </div>
-
-
-
-                    {/* Bottom Feature */}
-                    <div className="row align-items-center bottom-feature">
-                        {/* Device Mockup */}
-                        <div className="col-lg-7 mb-4 mb-lg-0">
-                            <div className="device-mockup">
-                                <img
-                                    src="https://via.placeholder.com/600x400/f8f9fa/333333?text=Device+Screens"
-                                    alt="Device Mockup"
-                                />
-                            </div>
-                        </div>
-
-                        {/* Right Feature */}
-                        <div className="col-lg-5">
-                            <div className="feature-card">
-                                <div className="icon-box">
-                                    <i className="fas fa-smile"></i>
-                                </div>
-                                <p className="feature-subtitle">Lorem Ipsum is simply dummy text</p>
-                                <p className="feature-text">Lorem Ipsum is simply dummy text</p>
-                            </div>
-                        </div>
+                    <div className="right-bg z-1">
+                        <img src={Eclipse} alt="bg" />
                     </div>
                 </div>
+
             </section>
         </>
     )
