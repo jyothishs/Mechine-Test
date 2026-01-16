@@ -10,6 +10,7 @@ import Circle from '../assets/left-circle.png'
 import Circleright from '../assets/right-circle.png'
 import Phone from '../assets/phone.png'
 import Happy from '../assets/Happy.png'
+import Line from '../assets/line.png'
 
 
 import { Link } from 'react-router-dom';
@@ -130,6 +131,9 @@ function Home() {
                 </div>
             </section>
             <section className="feature-section">
+                <div className="line">
+                    <img src={Line} alt="line" />
+                </div>
                 <div className="container">
                     <div className="row align-items-center">
                         {/* Left Feature */}
@@ -168,18 +172,7 @@ function Home() {
                         </div>
                     </div>
 
-                    {/* Curved Connection Line */}
-                    <div className="curved-line">
-                        <svg viewBox="0 0 1200 800" preserveAspectRatio="none">
-                            <path
-                                d="M 200 300 Q 600 500, 1000 600"
-                                stroke="#e9ecef"
-                                strokeWidth="2"
-                                fill="none"
-                                strokeDasharray="10,10"
-                            />
-                        </svg>
-                    </div>
+
 
                     {/* Bottom Feature */}
                     <div className="row align-items-center bottom-feature">

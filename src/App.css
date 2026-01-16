@@ -334,6 +334,16 @@ p.feature-text {
   color: #545454;
 }
 
+.line {
+  position: absolute;
+  top: 152px;
+  left: 13px;
+}
+
+section.feature-section {
+  position: relative;
+}
+
 /**********feature**********/
 section.head-section {
   padding: 97px 0;
