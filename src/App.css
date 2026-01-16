@@ -362,6 +362,7 @@ p.feature-text {
 
 section.feature-section {
   position: relative;
+  overflow: hidden;
 }
 
 .right-bg {
