@@ -153,7 +153,7 @@ function Home() {
                                     </div>
 
                                     <h2 className="feature-title">
-                                        Lorem Ipsum is simply dummy text of the printing.
+                                        <span>Lorem Ipsum</span> is simply dummy text of the printing.
                                     </h2>
                                     <p className="feature-text">
                                         KODEX TECHNOLOGY (PVT) LTD is a team of experienced mobile and web
@@ -201,7 +201,7 @@ function Home() {
                                     </div>
 
                                     <h2 className="feature-title">
-                                        Lorem Ipsum is simply dummy text of the printing.
+                                        <span>Lorem Ipsum</span> is simply dummy text of the printing.
                                     </h2>
                                     <p className="feature-text">
                                         KODEX TECHNOLOGY (PVT) LTD is a team of experienced mobile and web

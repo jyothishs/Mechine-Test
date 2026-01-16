@@ -341,6 +341,14 @@ h2.feature-title {
   margin-bottom: 26px;
 }
 
+h2.feature-title span {
+  color: var(--primary-color);
+}
+
+.feature-row-two .icon-box {
+  background-color: #1090CB;
+}
+
 p.feature-text {
   color: #545454;
 }
