@@ -12,6 +12,7 @@ import Phone from '../assets/phone.png'
 import Happy from '../assets/Happy.png'
 import Line from '../assets/line.png'
 import Eclipse from '../assets/ecl-right.png'
+import Slides from '../assets/slides.png'
 
 import { Link } from 'react-router-dom';
 
@@ -171,6 +172,47 @@ function Home() {
 
                             </div>
                         </div>
+
+                    </div>
+                    <div className="right-bg z-1">
+                        <img src={Eclipse} alt="bg" />
+                    </div>
+                </div>
+                <div className='feature-row-two'>
+                    <div className="container position-relative">
+
+                        <div className="row align-items-center">
+                            <div className="col-lg-6 position-relative">
+                                <div className="phone-mockup ">
+                                    <img src={Slides} alt="Phone Mockup" />
+                                </div>
+
+                            </div>
+                            <div className="col-lg-5 mb-4 mb-lg-0">
+                                <div className="feature-card">
+                                    <div className="icon-cont">
+                                        <div className="icon-box">
+                                            <img src={Happy} alt="Phone" />
+                                        </div>
+                                        <div className="feat-cont">
+                                            <p className="feature-title-one">Lorem Ipsum is simply dummy text</p>
+                                            <p className="feature-subtitle">Lorem Ipsum is simply dummy text</p>
+                                        </div>
+                                    </div>
+
+                                    <h2 className="feature-title">
+                                        Lorem Ipsum is simply dummy text of the printing.
+                                    </h2>
+                                    <p className="feature-text">
+                                        KODEX TECHNOLOGY (PVT) LTD is a team of experienced mobile and web
+                                        applications and website builders measuring dozens of completed projects.
+                                        We build and develop mobile applications for several top platforms,
+                                        including Android & IOS.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                     <div className="right-bg z-1">
                         <img src={Eclipse} alt="bg" />

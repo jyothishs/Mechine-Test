@@ -205,7 +205,7 @@ section.hero-section p {
   background-color: #000;
 }
 
-.hero-button a:hover {
+.hero-button a:hoverq {
   background-color: var(--primary-color);
   color: #fff;
 }
@@ -364,6 +364,14 @@ section.feature-section {
 /**********feature**********/
 section.head-section {
   padding: 97px 0;
+}
+
+.phone-mockup img {
+  width: 100%;
+}
+
+.feature-row-two {
+  padding-top: 123px;
 }
 
 /* Responsive */
