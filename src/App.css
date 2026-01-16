@@ -300,6 +300,40 @@ p.section-subtitle {
   transform: translate(0px, -182px);
 }
 
+.feature-card .icon-box {
+  background-color: #08D3BB;
+  display: inline-block;
+  padding: 17px;
+  border-radius: 50%;
+}
+
+.icon-cont {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+  margin-bottom: 35px;
+}
+
+p.feature-title-one {
+  margin-bottom: 2px;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+p.feature-subtitle {
+  color: #868686;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+h2.feature-title {
+  margin-bottom: 26px;
+}
+
+p.feature-text {
+  color: #545454;
+}
+
 /**********feature**********/
 section.head-section {
   padding: 97px 0;
