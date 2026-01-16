@@ -293,6 +293,13 @@ p.section-subtitle {
   bottom: -62px;
 }
 
+.right-circle {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(0px, -182px);
+}
+
 /**********feature**********/
 section.head-section {
   padding: 97px 0;

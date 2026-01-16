@@ -7,6 +7,7 @@ import Ar from '../assets/immersive.png'
 import Seo from '../assets/seo-tag.png'
 import Web from '../assets/website-content.png'
 import Circle from '../assets/left-circle.png'
+import Circleright from '../assets/right-circle.png'
 
 import { Link } from 'react-router-dom';
 
@@ -47,6 +48,9 @@ function Home() {
                 </div>
                 <div className="left-circle">
                     <img src={Circle} alt="left-circle" />
+                </div>
+                <div className="right-circle">
+                    <img src={Circleright} alt="right-circle" />
                 </div>
             </section>
             <section className='service'>
