@@ -357,6 +357,7 @@ p.feature-text {
   position: absolute;
   top: 135px;
   left: -57px;
+  z-index: -1;
 }
 
 section.feature-section {
