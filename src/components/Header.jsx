@@ -11,9 +11,9 @@ function Header() {
             <div className="container-fluid p-32">
                 <nav className='row justify-content-between'>
                     <div className='col-md-3'>
-                        <a className="navbar-brand" href="#">
+                        <Link className="navbar-brand" to={"/"}>
                             <img src={Logo} alt="logo" width="120" />
-                        </a>
+                        </Link>
 
                     </div>
                     <div className='col-md-9'>
