@@ -286,6 +286,7 @@ section.hero-section p {
   font-size: 14px;
   color: #9ca3af;
   margin: 0;
+  text-align: left;
 }
 
 section.service {
