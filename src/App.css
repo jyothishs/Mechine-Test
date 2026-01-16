@@ -279,8 +279,24 @@ section.hero-section p {
 
 section.service {
   padding: 43px 0;
+  border-bottom: 1px solid #C7C7C7;
 }
 
+p.section-subtitle {
+  color: #868686;
+  font-size: 16px;
+}
+
+.left-circle {
+  position: absolute;
+  left: 0;
+  bottom: -150px;
+}
+
+/**********feature**********/
+section.head-section {
+  padding: 97px 0;
+}
 
 /* Responsive */
 @media screen and (max-width: 768px) {

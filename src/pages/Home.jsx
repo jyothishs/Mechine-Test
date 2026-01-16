@@ -6,6 +6,7 @@ import Coding from '../assets/coding.png'
 import Ar from '../assets/immersive.png'
 import Seo from '../assets/seo-tag.png'
 import Web from '../assets/website-content.png'
+import Circle from '../assets/left-circle.png'
 
 import { Link } from 'react-router-dom';
 
@@ -43,6 +44,9 @@ function Home() {
 
                         </div>
                     </div>
+                </div>
+                <div className="left-circle">
+                    <img src={Circle} alt="left-circle" />
                 </div>
             </section>
             <section className='service'>
@@ -99,6 +103,21 @@ function Home() {
                                     <p class="service-desc">Lorem ipsum is simply</p>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section className="head-section">
+                <div className="container">
+                    <div className="row justify-content-center text-center">
+                        <div className="col-lg-8">
+                            <h1 className="section-title mb-4">
+                                Lorem Ipsum is simply dummy text of the printing.
+                            </h1>
+                            <p className="section-subtitle">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br />
+                                Lorem Ipsum has been the industry's
+                            </p>
                         </div>
                     </div>
                 </div>
